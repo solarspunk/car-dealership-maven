@@ -22,7 +22,7 @@ public enum MenuOption {
         this.code = code;
         this.label = label;
     }
-
+//getters
     public int getCode() {
         return code;
     }
