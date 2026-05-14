@@ -5,10 +5,11 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 public enum VehicleType {
-    CAR("Car"),
+    SEDAN("Sedan"),
     TRUCK("Truck"),
     SUV("SUV"),
-    VAN("Van");
+    VAN("Van"),
+    COUPE("Coupe");
 
     private final String displayName;
 
