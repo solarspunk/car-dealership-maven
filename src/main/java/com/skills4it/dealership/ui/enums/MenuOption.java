@@ -5,7 +5,14 @@ import java.util.Optional;
 
 public enum MenuOption {
     FIND_BY_PRICE(1, "Find vehicles within a price range"),
-   543728065478092h3y67f0fhf32f23fjqklhsjakfl879340758901378902347hjskhdfsjakl7829341057342hwjshlrjkfda;
+    FIND_BY_MAKE_MODEL(2, "Find vehicles by make/model"),
+    FIND_BY_YEAR(3, "Find vehicles by year range"),
+    FIND_BY_COLOR(4, "Find vehicles by color"),
+    FIND_BY_MILEAGE(5, "Find vehicles by mileage range"),
+    FIND_BY_TYPE(6, "Find vehicles by type"),
+    LIST_ALL(7, "List all vehicles"),
+    ADD_VEHICLE(8, "Add a vehicle"),
+    REMOVE_VEHICLE(9, "Remove a vehicle"),
     QUIT(99, "Quit");
 
     private final int code;
