@@ -1,5 +1,7 @@
 package com.skills4it.dealership.models;
 
+//todo: check if the methods need to be abstract
+
 public class Contract {
     private String date;
     private String customerName;
@@ -48,4 +50,7 @@ public class Contract {
     public void setTotalPrice(double totalPrice) {
         this.totalPrice = totalPrice;
     }
+
+
+
 }
